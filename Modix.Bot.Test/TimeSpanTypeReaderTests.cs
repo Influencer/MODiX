@@ -30,6 +30,7 @@ namespace Modix.Bot.Test
             var succeeded = uut.TryParseTimeSpan(input, out _);
 
             succeeded.ShouldBeFalse();
+            Console.WriteLine("Blah");
         }
 
         internal static readonly object[] ValidInputs
